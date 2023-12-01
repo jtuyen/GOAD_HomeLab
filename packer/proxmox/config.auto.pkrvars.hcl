@@ -1,0 +1,8 @@
+proxmox_url             = "https://192.168.100.4:8006/api2/json"
+proxmox_username        = "infra_as_code@pve"
+proxmox_password        = ""
+proxmox_skip_tls_verify = "true"
+proxmox_node            = "proxmox-node1"
+proxmox_pool		= ""
+proxmox_iso_storage     = "local"
+proxmox_vm_storage      = "EXT4"
