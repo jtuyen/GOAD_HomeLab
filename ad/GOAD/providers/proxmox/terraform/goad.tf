@@ -12,7 +12,6 @@ variable "vm_config" {
 
   default = {
     "dc01" = {
-#      vm_id = 105
       name               = "GOAD-DC01"
       desc               = "DC01 - windows server 2019 - 192.168.100.10"
       cores              = 2
@@ -23,7 +22,6 @@ variable "vm_config" {
       gateway            = "192.168.100.1"
     }
     "dc02" = {
-#      vm_id = 106
       name               = "GOAD-DC02"
       desc               = "DC02 - windows server 2019 - 192.168.100.11"
       cores              = 2
@@ -34,7 +32,6 @@ variable "vm_config" {
       gateway            = "192.168.100.1"
     }
     "dc03" = {
-#      vm_id = 107
       name               = "GOAD-DC03"
       desc               = "DC03 - windows server 2016 - 192.168.100.12"
       cores              = 2
@@ -45,7 +42,6 @@ variable "vm_config" {
       gateway            = "192.168.100.1"
     }
     "srv02" = {
-#      vm_id = 108
       name               = "GOAD-SRV02"
       desc               = "SRV02 - windows server 2019 - 192.168.100.22"
       cores              = 2
@@ -56,7 +52,6 @@ variable "vm_config" {
       gateway            = "192.168.100.1"
     }
     "srv03" = {
-#      vm_id = 109
       name               = "GOAD-SRV03"
       desc               = "SRV03 - windows server 2016 - 192.168.100.23"
       cores              = 2
